@@ -1,0 +1,150 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  height: 50px;
+}
+.header {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  align-items: center;
+  justify-content: space-between;
+}
+.links {
+  display: inline-flex;
+}
+
+.grow {
+  align-items: stretch;
+  margin: 15px;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainp {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  margin-left: 60px;
+}
+.background {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px;
+}
+.text {
+  padding: 9px;
+  margin: 0px;
+}
+.head {
+  width: 1000px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.resize {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.justify {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 1000px;
+}
+.footer {
+  display: ;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.locparent {
+  display: flex;
+  margin: 0px 50px;
+}
+.location1 {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 240px;
+  padding: 50px;
+  margin: 0px 50px;
+}
+.location2 {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 240px;
+  padding: 50px;
+  margin: 0px 50px;
+}
+.location3 {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 240px;
+  padding: 50px;
+  margin: 0px 50px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  height: 200px;
+}
+.copyright {
+  padding: 20px;
+}
